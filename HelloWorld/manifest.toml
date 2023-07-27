@@ -1,0 +1,5 @@
+name = "HelloWorld"
+
+[scripts]
+health_check = "health.sh"
+start = "start.sh"

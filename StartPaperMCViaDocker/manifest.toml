@@ -1,0 +1,8 @@
+name = "StartPaparMCViaDocker"
+enable = true
+
+[scripts]
+health_check = "health.sh"
+pre_start = "pre_start.sh"
+start = "start.sh 1.20.1 minecraft_surival_1.20.1 4G"
+stop = "stop.sh minecraft_surival_1.20.1"
